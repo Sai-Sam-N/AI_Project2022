@@ -1,0 +1,32 @@
+{"intents": [
+  {
+    "tag" : "symptoms",
+    "patterns": ["the symptoms i have are","my symptoms are","i'm facing","i'm feeling","i'm suffering from","i feel like","i have"],
+    "responses": ["Our expert team is working on an appointment for you, please be patient"]
+  },
+  {
+    "tag" : "appointment",
+    "patterns": ["when can i fix my appointment","when can i book ","my symptoms are","what timing slots are convenient for my doctor?"],
+    "responses": ["Dr.Sanjay is free from 9:00","Dr.Flori is available after 5 pm this evening"]
+  },
+  {
+    "tag" : "name",
+    "patterns": ["what is your name","what do you call yourself","how do you call yourself","who are you","what should I call you","name","what's your name"],
+    "responses": ["I'm Khavs your Virtual Healthcare assistant","You can call me Khavs","Hey, I'm Khavs. Nice to meet you"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+    "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!","Take care","Hope you get better soon"]
+  },
+  {
+    "tag": "invalid",
+    "patterns": ["","gvsd","asbhk","pljdbi","wxyz"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  }
+]}
